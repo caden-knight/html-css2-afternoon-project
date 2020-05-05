@@ -75,17 +75,18 @@ body {
 }
 
 .astronaut {
-    height: 80vh;
+    height: 88vh;
     width: 100%;
     margin-bottom: -145px;
 }
 
 .starship2 {
-    padding: 50px;
-    margin-right: 650px;
+    padding: 25px;
+    margin-right: 550px;
+    margin-left: 300px;
     color: white;
     font-family: brandon;
-    font-size: 35px;
+    font-size: 30px;
     opacity: 1;
     z-index: 20px;
 }
@@ -94,19 +95,19 @@ body {
     display: flex;
     height: 18vh;
     width: 100vw;
-    background-color: rgb(5, 2, 49);
+    background-color: rgb(0, 0, 0);
     opacity: 0.5;
     margin-bottom: 0px;
     z-index: -10px;
 }
 
 button {
-    height: 40px;
-    width: 15%;
+    height: 35px;
+    width: 12%;
     background-color: ivory;
     align-items: flex-end;
     opacity: 1;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .mid-message {
@@ -138,7 +139,6 @@ button {
     width: 256px;
 
 }
-
 
 .box2 {
     display: inherit;
