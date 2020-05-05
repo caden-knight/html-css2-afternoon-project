@@ -83,7 +83,6 @@ body {
 .starship2 {
     padding: 50px;
     margin-right: 650px;
-    margin-bottom: 400px;
     color: white;
     font-family: brandon;
     font-size: 35px;
@@ -93,7 +92,7 @@ body {
 
 .bar{
     display: flex;
-    height: 15vh;
+    height: 18vh;
     width: 100vw;
     background-color: rgb(5, 2, 49);
     opacity: 0.5;
@@ -111,6 +110,8 @@ button {
 }
 
 .mid-message {
+    height: 100px;
+    width: 100vw;
     font-family: brandon;
     padding: 75px;
     text-align: center;
@@ -120,15 +121,17 @@ button {
 
 .boxes {
     display: flex;
-    margin-left: 100px;
+    justify-content: space-evenly;
+    margin-bottom: 500px;
+}
+
+.box1 {
+    display: inherit;
+    box-shadow: 2px 2px 3px 3px lightgray;
     height: 282px;
     width: 310px;
     padding: 24px;
-    border: solid gray;
-    margin-bottom: 100px;
-}
-.box1 {
-    float: left;
+    
 }
 
 .nebula {
@@ -139,16 +142,27 @@ button {
 
 
 .box2 {
-    margin-top: -27px;
-    margin-left: 100px;
+    display: inherit;
+    box-shadow: 2px 2px 3px 3px lightgray;
     height: 282px;
     width: 310px;
     padding: 24px;
-    border: solid gray;
-    margin-bottom: 100px;
 }
 
 .planet {
+    height: 116px;
+    width: 256px;
+}
+
+.box3 {
+    display: inherit;
+    box-shadow: 2px 2px 3px 3px lightgray;
+    height: 282px;
+    width: 310px;
+    padding: 24px;
+}
+
+.moon {
     height: 116px;
     width: 256px;
 }
@@ -157,6 +171,7 @@ button {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    p
     height: 5vh;
     width: 100vw;
     color: white;
@@ -164,7 +179,23 @@ button {
     font-family: brandon;
 }
 
+.twitter {
+    font-size: 13px;
+}
+
+.youtube {
+    font-size: 13px;
+}
+
+.flickr {
+    font-size: 13px;
+}
+
+.insta {
+    font-size: 13px;
+}
+
 .privacy {
-    margin-right: 600px;
+    margin-right: 700px;
     font-size: 13px;
 }
