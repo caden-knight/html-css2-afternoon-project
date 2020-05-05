@@ -115,13 +115,42 @@ button {
     padding: 75px;
     text-align: center;
     font-size: 18px;
+    font-weight: bold;
+}
+
+.boxes {
+    display: flex;
+    margin-left: 100px;
+    height: 282px;
+    width: 310px;
+    padding: 24px;
+    border: solid gray;
+    margin-bottom: 100px;
+}
+.box1 {
+    float: left;
 }
 
 .nebula {
-    height: 25vh;
-    width: 25vw;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    height: 116px;
+    width: 256px;
+
+}
+
+
+.box2 {
+    margin-top: -27px;
+    margin-left: 100px;
+    height: 282px;
+    width: 310px;
+    padding: 24px;
+    border: solid gray;
+    margin-bottom: 100px;
+}
+
+.planet {
+    height: 116px;
+    width: 256px;
 }
 
 .footer {
