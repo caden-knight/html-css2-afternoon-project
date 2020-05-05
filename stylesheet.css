@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(fonts/Brandon_reg.otf);
+    font-family: brandon
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    height: 7vh;
+    width: 100vw;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: brandon;
+    background-color: black
+}
+
+.falc9 {
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.falcH {
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+    letter-spacing: -1px;
+}
+
+.dragon {
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.starship {
+    padding-top: 5px;
+    margin-right: 150px;
+    font-size: 15px;
+    color: white;
+}
+.updates{
+    font-size: 15px;
+    color: gray;
+}
+
+.about{
+    font-size: 15px;
+    color: gray;
+}
+
+.careers{
+    font-size: 15px;
+    color: gray;
+}
+
+.shop{
+    font-size: 15px;
+    color: gray;
+}
+
+.astronaut {
+    height: 80vh;
+    width: 100%;
+    margin-bottom: -145px;
+}
+
+.starship2 {
+    padding: 50px;
+    margin-right: 650px;
+    margin-bottom: 400px;
+    color: white;
+    font-family: brandon;
+    font-size: 35px;
+    opacity: 1;
+    z-index: 20px;
+}
+
+.bar{
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(5, 2, 49);
+    opacity: 0.5;
+    margin-bottom: 0px;
+    z-index: -10px;
+}
+
+button {
+    height: 40px;
+    width: 15%;
+    background-color: ivory;
+    align-items: flex-end;
+    opacity: 1;
+    margin-top: 50px;
+}
+
+.mid-message {
+    font-family: brandon;
+    padding: 75px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.nebula {
+    height: 25vh;
+    width: 25vw;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    font-family: brandon;
+}
+
+.privacy {
+    margin-right: 600px;
+    font-size: 13px;
+}
